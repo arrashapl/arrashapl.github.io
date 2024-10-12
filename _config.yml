@@ -1,0 +1,97 @@
+# Site
+repository: risjain/modern-resume-theme
+#favicon: images/favicon.ico
+
+# Personal info
+name: Rishabh Jain
+title: Research Engineer
+#email: 
+website: risjain.github.io
+
+# Social links
+# twitter_username: facespics
+github_username:  risjain
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+linkedin_username: risjain
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+orcid_username: 0000-0001-5457-3929
+google_scholar_id: 8YvHALEAAAAJ
+email_via_form: https://docs.google.com/forms/d/e/1FAIpQLSd8ffk7m9HMW_GGiCFigIL5msEmNklDI0OezFy8e0E2lEocqg/formResponse
+
+#additional_links:
+#- title: Email
+#  icon: fas fa-envelope
+#  url: https://docs.google.com/forms/d/e/1FAIpQLSd8ffk7m9HMW_GGiCFigIL5msEmNklDI0OezFy8e0E2lEocqg/formResponse
+
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+link: https://risjain.github.io
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Rishabh. I am a senior research engineer at the National Renewable Energy Laboratory in the Power Systems Engineering Center. I am leading multiple research projects focused on e-Mobility (transportation electrification), sustainable grid integration of renewables, networked microgrids, and market opportunities for grid support services. My expertise is in quasi-steady-state and real-time hardware-in-the-loop power system modeling, grid protection from faults, and, control, design and operation of microgrids. 
+  
+# What's New Section
+whatsnew_title: What's New?
+whatsnew_content: | # this will include new lines to allow paragraphs
+  - [IEEE Transportation Electrification Conference and Expo (ITEC) 2021](https://itec-conf.com/call-for-papers/) : Track Chair for "Transportation Refueling Infrastructure"
+  - [Grid Coordination Opens Road for Electric Vehicle Flexibility](https://www.nrel.gov/news/features/2020/grid-coordination-opens-road-for-electric-vehicle-flexibility.html)
+  - [Collaboration with Intertie Inc.](https://gcxnrel.com/intertie-boosts-chargers-to-go-anywhere/)
+  
+# Projects Section
+projects_title: Active Projects
+
+# Experience Section
+experience_title: Professional Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+more_title: Outreach and Interests
+more_content: | # this will include new lines to allow paragraphs
+  Outreach:
+   - Reviewer : Publications in multiple prestigious journals including IEEE Transactions on Power Systems, Power Delivery, Sustainable Energy, IET Generation, and others} 
+   - Facilitator : Assessing Quantum Computing Efforts for Next Generation Energy Research
+   - NREL Point-of-Contact: IEEE Workshop on Quantum Computing Applications for Renewable Energy Systems
+  
+  R&D : 
+   - Research opportunities for residential and commercial scale electrification of light/heavy duty vehicles
+   - Protection of power systems with high renewable penetration
+   - Quantum computing algorithms for applications in autonomous energy systems
+
+  Professional Interests :
+   - Membership : Institute of Electrical and Electronics Engineers (IEEE), International Council for Large Electric Systems (CIGRE)
+   - Toastmasters - Active Member, Secretary and Treasurer (2020)
+
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: risjain/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+ - jekyll-analytics
+
+#jekyll_analytics:
+#  GoogleAnalytics:
+#    id: UA-176591083-1      # Required - replace with your tracking id
+
+# Google services
+google_analytics: UA-176591083-1
+
+google_site_verification: kYpCqA3JumA-uix2hTrzJCwQaZaIGgMxoUy3P7wANJw
+
+#Include Brave
+include: .well-known
