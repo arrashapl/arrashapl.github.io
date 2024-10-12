@@ -1,0 +1,26 @@
+- layout: left
+  name: Company A
+  dates: Est. 2010
+  qualification: Technology
+  description: | # this will include new lines to allow paragraphs
+      - Develops innovative software solutions for businesses.
+      - Strong track record of growth and profitability.
+      - Leader in its market segment.
+
+- layout: left
+  name: Company B
+  dates: Acquired 2015
+  qualification: Manufacturing
+  description: | # this will include new lines to allow paragraphs
+      - Produces high-quality industrial equipment.
+      - Long-standing customer relationships.
+      - Efficient and reliable operations. 
+
+- layout: left
+  name: Company C
+  dates: Est. 2018
+  qualification: Healthcare
+  description: | # this will include new lines to allow paragraphs
+      - Provides cutting-edge medical devices.
+      - Strong research and development capabilities.
+      - Significant potential for future growth.
